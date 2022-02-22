@@ -17,7 +17,11 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [x] 2-1: _O que é e para que serve?_
 - [x] 2-2: _Compreendendo os Comandos_
+<<<<<<< HEAD
 - [ ] 2-3: _Internet - Entendendo como funciona_
+=======
+- [x] 2-3: _Internet - Entendendo como funciona_
+>>>>>>> f8f7aeda92faa90635967ce62fb29e6ddab96710
 
 ##### Bloco 3: Introdução - HTML e CSS
 
