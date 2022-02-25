@@ -1,0 +1,27 @@
+body{
+    font-size: 16px;
+}
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    letter-spacing: -1px;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+    letter-spacing: -1px;
+}
+#lista-cores{
+    background-color: rgb(66, 2, 2);
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: overline;     
+}
+.fundo{
+    background-color: bisque;
+}
