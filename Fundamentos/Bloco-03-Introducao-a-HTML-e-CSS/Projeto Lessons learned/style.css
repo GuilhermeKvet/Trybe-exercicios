@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+div {
+  width: 200px;
+  height: 160px;
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+  border-radius: 10%;
+  margin-top: 100px;
+  width: 150px;
+  height: 200px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  width: 100%;
+  z-index: 1;
+}
+
+nav{
+  padding: 10px;
+}
+
+#titulo {
+  text-align: center;
+  font-size: 35px;
+  color: white
+}
+
+#main {
+  margin: 20px;
+}
+
+#licoes {
+  margin: 3%;
+  height: 1px;
+  padding: 5px;
+  font-size: xx-large;
+}
+
+#tabela {
+  border: 1px solid;
+}
+
+.lado-esquerdo {
+  width: 30%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 150px;
+}
+
+.lado-direito {
+  width: 30%;
+  position: absolute;
+  z-index: 2;
+  left: 500px;
+  margin-top: 150px;
+}
