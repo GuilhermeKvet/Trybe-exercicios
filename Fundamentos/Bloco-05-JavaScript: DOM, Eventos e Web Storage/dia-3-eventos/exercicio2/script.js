@@ -187,7 +187,7 @@ legendaColorida('orange');
 //9.1 - Ao clicar novamente no elemento a sua classe deverá voltar a ser somente task , ou seja, esta tarefa está deixando de ser uma tarefa selecionada.
 
 function selecionarTask(event) {
-  
+
   let task = document.querySelector('.task');
 
   task.addEventListener('click', function () {
@@ -204,18 +204,54 @@ selecionarTask();
 //10 - Implemente uma função que adiciona um evento que ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.
 //10.1 - Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119).
 
-function mudarCorDia (){
+function mudarCorDia() {
 
   let days = document.querySelector('#days');
   let task = document.querySelector('.task');
 
-  days.addEventListener('click', function(event){
-    if(event.target.style.color == task.style
-      .backgroundColor){
-        event.target.style.color = 'rgb(119,119,119)'
-    }else{
+  days.addEventListener('click', function (event) {
+    if (event.target.style.color == task.style
+      .backgroundColor) {
+      event.target.style.color = 'rgb(119,119,119)'
+    } else {
       event.target.style.color = task.style.backgroundColor;
     }
   })
 }
 mudarCorDia();
+
+//BONUS
+
+//11 - Vamos adicionar compromissos ao seu calendário? Implemente uma função que, ao digitar um compromisso na caixa de texto "COMPROMISSOS", adiciona o item à lista "MEUS COMPROMISSOS" ao clicar no botão "ADICIONAR".
+//11.1 - Se nenhum caractere for inserido no campo input , a função deve retornar um alert com uma mensagem de erro ao clicar em "ADICIONAR".
+//11.2 - Ao pressionar a tecla "enter" o evento também deverá ser disparado.
+
+function addCompromisso() {
+
+  let getTaskInput = document.querySelector('#task-input');
+  let getMyTask = document.querySelector('.task-list');
+  let buttonAdd = document.querySelector('#btn-add');
+
+  buttonAdd.addEventListener('click', function () {
+    if (getTaskInput.value.length > 0) {
+      let compromissos = document.createElement('li');
+      compromissos.innerText = getTaskInput.value;
+
+      getMyTask.appendChild(compromissos);
+      getTaskInput.value = '';
+    } else {
+      alert('Erro em tentar adicionar, deve ser inserido pelo menos 1 caractere.')
+    }
+  })
+
+  getTaskInput.addEventListener('keyup', function (event) {
+    if (event.key === 'Enter' && getTaskInput.value.length > 0) {
+      let compromissos = document.createElement('li');
+      compromissos.innerText = getTaskInput.value;
+
+      getMyTask.appendChild(compromissos);
+      getTaskInput.value = '';
+    }
+  })
+}
+addCompromisso();
