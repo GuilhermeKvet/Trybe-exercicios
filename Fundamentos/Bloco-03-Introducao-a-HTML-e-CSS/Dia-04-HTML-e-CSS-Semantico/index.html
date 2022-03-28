@@ -4,21 +4,83 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header>Soco a 80km/h: Conheça o Stomatopoda</header>
+<body id="paginaInicial">
+    <header class="display-3 text-center">
+        <h1>Soco a 80km/h: Conheça o Stomatopoda</h1>
+    </header>
     <nav>
-        <ul>
-            <li>Página Inicial</li>
-            <li>Sobre</li>
-            <li>Contato</li>
-        </ul>
+        <a href="#paginaInicial" class="btn stretched-link">Pagina Inicial</a>
+        <a href="#sobre" class="btn stretched-link">Sobre</a>
+        <a href="#contato" class="btn stretched-link">Contato</a>
     </nav>
-    <article>
-        <h1>Fatos sobre o Stomatopoda</h1>
-        <p></p>
+    <br>
+    <article id="sobre">
+        <h2 class="text-center">Fatos sobre o Stomatopoda</h2>
+        <section>
+            <h3 class="text-center">Informações gerais</h3>
+            <p class="text-center">Nome ciêntífico: <i>Odontodactylus scyllarus</i></p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Reino</th>
+                        <th scope="col">Filo</th>
+                        <th scope="col">Subfilo</th>
+                        <th scope="col">Classe</th>
+                        <th scope="col">Subclasse</th>
+                        <th scope="col">Ordem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Animalia</td>
+                        <td>Arthropoda</td>
+                        <td>Crustacea</td>
+                        <td>Malacostraca</td>
+                        <td>Hoplocarida</td>
+                        <td>Stomatopoda</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h3>Ataque</h3>
+            <p>Excelente golpeador, o tamarutaca "soca" suas presas com suas garras com uma força de até <strong>2,5 mil
+                    vezes</strong> seu peso em menos de 800 microsegundos. Este nocaute equivale a um tiro de pistola
+                <strong>calibre 22</strong>.
+            </p>
+            <img src="foto1.jpg" alt="Foto de uma Stomatopoda" width="250px" height="150px">
+        </section>
+        <br>
+        <section>
+            <h3>Visão</h3>
+            <p>Como se não bastasse, estes crustáceos apresentam
+                a melhor visão em cores do mundo. Possuindo <strong> 08 fotorreceptores</strong> para distinção de cores
+                (humanos possuem
+                03), conseguem detectar ondas ultravioleta e milhares de gradações (até 16 cores primárias).</p>
+            <img src="foto2.jpg" alt="Foto de uma Stomatopoda" width="250px" height="190px">
+        </section>
+        <section class="text-center">
+            <h3>Referências:</h3>
+            <a href="https://pt.wikipedia.org/wiki/Stomatopoda" target="_blank">wikipedia</a>
+            <br>
+            <a href="https://www.bichonativo.com.br/post/2018/03/20/curiosidade-animal-habilidades-do-tamarutaca#:~:text=Este%20nocaute%20equivale%20a%20um,(at%C3%A9%2016%20cores%20prim%C3%A1rias)."
+                target="_blank">bichonativo</a>
+        </section>
+        <br>
+        <aside class="text-center">
+            <a class="btn btn-primary stretched-link" href="https://www.youtube.com/watch?v=E0Li1k5hGBE">Vídeo mostra esse animal em ação</a>
+        </aside>
     </article>
+    <br>
+    <br>
+    <footer class="text-center">
+        <p id="contato">"Conteúdo compilado por Guilherme Kvet, 2022".</p>
+    </footer>
 </body>
 
 </html>
