@@ -1,0 +1,184 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+}
+
+.header-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-container li {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5px 3%;
+}
+
+h2{
+    font-size: 35px;
+}
+
+li{
+    list-style: none;
+    font-size: 25px;
+}
+
+.aside-one{
+   display: flex;
+   flex-flow: column wrap;
+   align-items: center; 
+}
+.aside-one li{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.aside-two{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.aside-two li{
+    margin-bottom: 10px;
+}
+
+.main-content{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.main-content p{
+    font-size: 30px;
+    margin: 3%;
+}
+
+.footer-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: rgb(202, 202, 202);;
+}
+
+.footer-container h3{
+    font-size: 30px;
+}
+
+.footer-container p{
+    font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    
+    body{
+        margin: 6%;
+    }
+    h2{
+        font-size: 45px;
+    }
+
+    li{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    p{
+        line-height: 40px;
+        font-size: 40px;
+    }
+    
+    .header-container {
+        font-size: 35px;
+    }
+    
+    .header-container li {
+        margin-left: 15px;
+        font-size: 30px;
+    }
+
+    .footer-container h3{
+        font-size: 40px;
+    }
+    
+    .footer-container p{
+        font-size: 35px;
+        text-align: center;
+        margin: 5%;
+    }
+}
+
+@media screen and (min-width: 950px){
+    
+    body{
+        max-width: 1400px;
+    }
+    h2{
+        font-size: 50px;
+    }
+
+    li{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    
+    .header-container {
+        font-size: 35px;
+    }
+    
+    .header-container li {
+        margin-left: 15px;
+        font-size: 35px;
+    }
+
+    .aside-one li{
+        font-size: 25px;
+        line-height: 40px; 
+     }
+
+    .aside-two{
+        width: 50%; 
+     }
+
+    .inicial-container{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .footer-container h3{
+        font-size: 50px;
+    }
+    
+    .footer-container p{
+        font-size: 40px;
+        text-align: center;
+        margin: 5%;
+    }
+
+    .main-content p{
+        line-height: 35px;
+        font-size: 35px;
+    }
+
+}
