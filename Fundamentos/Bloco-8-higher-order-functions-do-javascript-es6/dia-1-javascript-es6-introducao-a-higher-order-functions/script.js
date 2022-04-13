@@ -53,8 +53,14 @@ const checker = (rightAnswers, answers) => {
 }
 
 const studentGrade = (rightAnswers, answers, callback) => {
-  rightAnswers.forEach(element => {
-    
-  });
+  
+  let contador = 0;
+  
+  for (let index = 0; index < rightAnswers.length; index += 1){
+    const result = callback(rightAnswers[index], answers[index]);
+    contador += result;
+  }
+  return contador;
 }
 
+console.log(studentGrade(RIGHT_ANSWERS, STUDENT_ANSWERS, checker));
