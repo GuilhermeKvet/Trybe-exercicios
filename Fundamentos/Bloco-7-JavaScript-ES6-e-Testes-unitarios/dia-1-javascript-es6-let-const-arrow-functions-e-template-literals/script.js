@@ -95,12 +95,12 @@ reset.addEventListener('click', resetClicks);
 
 const array = ['git', 'html', 'css', 'JavaScript', 'DOM'];
 
-function buildSkillsPhrase (paramOne) {
+function buildSkillsPhrase(paramOne) {
   const searchX = (string) => {
     const phrase = 'Tryber x aqui!'
     let arrayPhrase = phrase.split(' ');
     let newPhrase = [];
-  
+
     for (let index in arrayPhrase) {
       if (arrayPhrase[index] === 'x') {
         arrayPhrase[index] = string;
@@ -114,7 +114,7 @@ function buildSkillsPhrase (paramOne) {
   Minhas cinco principais habilidades são:`;
 
   array.forEach((skill) =>
-  result = `${result}
+    result = `${result}
 
   - ${skill}`);
 
