@@ -6,6 +6,6 @@ const studentAverage = () => {
     name: nome,
     average: (grades[index].reduce((acc, nota) => acc + nota, 0) / grades[index].length),
   }));
-  return nameAndAverage
+  return nameAndAverage;
 }
 console.log(studentAverage());

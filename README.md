@@ -25,7 +25,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 3-2: _HTML e CSS - Introdução ao CSS_
 - [x] 3-3: _HTML e CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML semântico_
-- [x] 3-5: _[Projeto - HTML e CSS]()_
+- [x] 3-5: _[Projeto - HTML e CSS](https://github.com/GuilhermeKvet/Project-Lessons-Learned)_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -61,21 +61,21 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 7-1: _JavaScript ES6 - let, const, funções de seta e literais de modelo_
 - [x] 7-2: _JavaScript ES6 - Objetos_
 - [x] 7-3: _Testes unitários em JavaScript_
-- [ ] 7-4: _[Projeto - Testes de Unidade JavaScript]()_
+- [x] 7-4: _[Projeto - Testes de Unidade JavaScript]()_
 
 ##### Bloco 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Funções de ordem superior - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Funções de ordem superior - mapa e filtro_
-- [ ] 8-3: _JavaScript ES6 - Funções de ordem superior - reduce_
-- [ ] 8-4: _JavaScript ES6 - operador de propagação, parâmetro de descanso, desestruturação e mais_
-- [ ] 8-5: _[Projeto - Funções do zoológico]()_
+- [x] 8-1: _JavaScript ES6 - Funções de ordem superior - forEach, find, some, every, sort_
+- [x] 8-2: _JavaScript ES6 - Funções de ordem superior - mapa e filtro_
+- [x] 8-3: _JavaScript ES6 - Funções de ordem superior - reduce_
+- [x] 8-4: _JavaScript ES6 - operador de propagação, parâmetro de descanso, desestruturação e mais_
+- [x] 8-5: _[Projeto - Funções do zoológico]()_
 
 ##### Bloco 9: assincronia e retornos de chamada
 
-- [ ] 9-1: _JavaScript assíncrono e retornos de chamada_
-- [ ] 9-2: _Promessas JavaScript_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [x] 9-1: _JavaScript assíncrono e retornos de chamada_
+- [x] 9-2: _Promessas JavaScript_
+- [x] 9-3: _[Projeto - Carrinho de Compras]()_
 
 ##### Bloco 10: Brincadeira
 
