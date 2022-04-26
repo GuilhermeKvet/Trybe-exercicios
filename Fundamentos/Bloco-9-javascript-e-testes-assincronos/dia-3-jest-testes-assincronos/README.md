@@ -1,6 +1,6 @@
 ## Exercício do dia realizado em outro repositório!
 
 
-##### Bloco 3:
+##### Acesso ao repositório:
 
-_[Exercício dia 9.3]()_
+_[Exercício dia 9.3](https://github.com/GuilhermeKvet/exercise-magic-card)_
