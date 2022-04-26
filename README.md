@@ -33,7 +33,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 4-2: _JavaScript - Array e Loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e Recursos_
-- [x] 4-5: _[Projeto - Funções do Playground]()_
+- [x] 4-5: _[Projeto - Funções do Playground](https://github.com/GuilhermeKvet/Project-Playground-Function)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -41,11 +41,11 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 5-2: _JavaScript - Trabalhando com itens_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Armazenamento na Web_
-- [x] 5-5: _[Projeto - Gerador de Memes]()_
-- [x] 5-6: _[Projeto - Pixel Art]()_
-- [x] 5-7: _[Projeto - Lista de tarefas]()_
-- [x] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [x] 5-7: _[Projeto - Carta Misteriosa]()_
+- [x] 5-5: _[Projeto - Gerador de Memes](https://github.com/GuilhermeKvet/Project-Meme-Generator)_
+- [x] 5-6: _[Projeto - Pixel Art](https://github.com/GuilhermeKvet/Project-Pixels-Art)_
+- [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/GuilhermeKvet/Project-To-Do-List)_
+- [x] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/GuilhermeKvet/Project-Color-Guess)_
+- [x] 5-7: _[Projeto - Carta Misteriosa](https://github.com/GuilhermeKvet/Project-Mistery-Letter)_
 
 ##### Bloco 6: HTML e CSS avançados
 
@@ -54,14 +54,14 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 6-3: _CSS Flexbox - Parte 1_
 - [x] 6-4: _CSS Flexbox - Parte 2_
 - [x] 6-5: _CSS responsivo - Mobile First_
-- [x] 6-6: _[Projeto - página inicial do Facebook]()_
+- [x] 6-6: _[Projeto - TrybeWarts](https://github.com/GuilhermeKvet/Project-TrybeWarts)_
 
 ##### Bloco 7: JavaScript ES6 e testes de unidade
 
 - [x] 7-1: _JavaScript ES6 - let, const, funções de seta e literais de modelo_
 - [x] 7-2: _JavaScript ES6 - Objetos_
 - [x] 7-3: _Testes unitários em JavaScript_
-- [x] 7-4: _[Projeto - Testes de Unidade JavaScript]()_
+- [x] 7-4: _[Projeto - Testes de Unidade JavaScript](https://github.com/GuilhermeKvet/Project-JS-Unit-Tests)_
 
 ##### Bloco 8: JavaScript ES6
 
@@ -69,7 +69,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 8-2: _JavaScript ES6 - Funções de ordem superior - mapa e filtro_
 - [x] 8-3: _JavaScript ES6 - Funções de ordem superior - reduce_
 - [x] 8-4: _JavaScript ES6 - operador de propagação, parâmetro de descanso, desestruturação e mais_
-- [x] 8-5: _[Projeto - Funções do zoológico]()_
+- [x] 8-5: _[Projeto - Funções do zoológico](https://github.com/GuilhermeKvet/Project-Zoo-Functions)_
 
 ##### Bloco 9: assincronia e retornos de chamada
 
