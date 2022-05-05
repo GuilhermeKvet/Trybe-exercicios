@@ -75,7 +75,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [x] 9-1: _JavaScript assíncrono e retornos de chamada_
 - [x] 9-2: _Promessas JavaScript_
-- [x] 9-3: _[Projeto - Carrinho de Compras]()_
+- [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/GuilhermeKvet/Project-Shopping-Cart)_
 
 ##### Bloco 10: Brincadeira
 
