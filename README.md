@@ -56,14 +56,14 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 6-5: _CSS responsivo - Mobile First_
 - [x] 6-6: _[Projeto - TrybeWarts](https://github.com/GuilhermeKvet/Project-TrybeWarts)_
 
-##### Bloco 7: JavaScript ES6 e testes de unidade
+##### Bloco 7: JavaScript ES6 e Testes Unitários
 
 - [x] 7-1: _JavaScript ES6 - let, const, funções de seta e literais de modelo_
-- [x] 7-2: _JavaScript ES6 - Objetos_
-- [x] 7-3: _Testes unitários em JavaScript_
+- [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [x] 7-3: _Primeiros passos em Jest_
 - [x] 7-4: _[Projeto - Testes de Unidade JavaScript](https://github.com/GuilhermeKvet/Project-JS-Unit-Tests)_
 
-##### Bloco 8: JavaScript ES6
+##### Bloco 8: Higher Order Functions do JavaScript ES6
 
 - [x] 8-1: _JavaScript ES6 - Funções de ordem superior - forEach, find, some, every, sort_
 - [x] 8-2: _JavaScript ES6 - Funções de ordem superior - mapa e filtro_
@@ -75,7 +75,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [x] 9-1: _JavaScript assíncrono e retornos de chamada_
 - [x] 9-2: _Promessas JavaScript_
-- [x] 9-3: _[Projeto - Carrinho de Compras]()_
+- [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/GuilhermeKvet/Project-Shopping-Cart)_
 
 ## Desenvolvimento front-end :hourglass_flowing_sand:
 
