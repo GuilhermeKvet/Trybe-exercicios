@@ -83,50 +83,50 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [x] 10-1: _'Olá, mundo!' não reaja! _
 - [x] 10-2: _Componentes do React_
-- [x] 10-3: _[Projeto - Sistema solar]()_
+- [x] 10-3: _[Projeto - Sistema solar](https://github.com/GuilhermeKvet/Project-Solar-System)_
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
 - [x] 11-1: _Componentes com estado e eventos_
 - [x] 11-2: _React Events and Forms_
-- [x] 11-3: _[Projeto - Tryufo]()_
+- [x] 11-3: _[Projeto - Tryufo](https://github.com/GuilhermeKvet/Project-Tryunfo)_
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
 - [x] 12-1: _React Component Lifecycle_
 - [x] 12-2: _React Router_
-- [x] 12-3: _[Projeto - TrybeTunes]()_
+- [x] 12-3: _[Projeto - TrybeTunes](https://github.com/GuilhermeKvet/Project-TrybeTunes)_
 
 ##### Bloco 13: Metodologias geológicas
 
 - [x] 13-1: _Metodologias à Geis_
-- [x] 13-2: _[Projeto - Loja Online Frontend]()_
+- [x] 13-2: _[Projeto - Loja Online Frontend](https://github.com/GuilhermeKvet/Project-Front-end-Online-store)_
 
 ##### Bloco 14: Testes em React
 
 - [x] 14-1: _Primeiros passos_
 - [x] 14-2: _Testando React com React Testing Library_
 - [x] 14-3: _Testando o React com React Router_
-- [x] 14-4: _[Projeto - Testes de react]()_
+- [x] 14-4: _[Projeto - Testes de react](https://github.com/GuilhermeKvet/Project-React-Testing-Library)_
 
 ##### Bloco 15: Introdução ao Redux
 
-- [ ] 15-1: _Introdução ao Redux_
-- [ ] 15-2: _Reagir com Redux - Parte 1_
-- [ ] 15-3: _Reagir com Redux - Praticar_
-- [ ] 15-4: _Reagir com Redux - Parte 2_
-- [ ] 15-5: _Testes síncronos com React-Redux_
-- [ ] 15-6: _[Projeto - Tabela com filtros de dados]()_
+- [x] 15-1: _Introdução ao Redux_
+- [x] 15-2: _Reagir com Redux - Parte 1_
+- [x] 15-3: _Reagir com Redux - Praticar_
+- [x] 15-4: _Reagir com Redux - Parte 2_
+- [x] 15-5: _Testes síncronos com React-Redux_
+- [x] 15-6: _[Projeto - Tabela com filtros de dados](https://github.com/GuilhermeKvet/Project-TrybeWallet)_
 
 ##### Bloco 16: Projeto Reagir
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [x] 16-1: _[Projeto - Jogo de Trivia](https://github.com/GuilhermeKvet/Project-Trivia-Game)_
 
 ##### Bloco 17: API React & Context
 
-- [ ] 17-1: _React API Context_
-- [ ] 17-2: _React Hooks - useState e useContext_
-- [ ] 17-3: _React Hooks - useEffect e Custom Hooks_
+- [x] 17-1: _React API Context_
+- [x] 17-2: _React Hooks - useState e useContext_
+- [x] 17-3: _React Hooks - useEffect e Custom Hooks_
 - [ ] 17-4: _[Projeto - StarWars Datatable com API de contexto e ganchos]()_
 
 ##### Bloco 18: Projeto Final Front-end
