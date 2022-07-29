@@ -4,7 +4,6 @@
 
 #### Crie e execute um container no modo interativo, utilizando a imagem Distribuição do Linux Debian com a tag tag: stable-slim. 
 
-- [x] newgrp docker
 - [x] docker run -it debian:stable-slim
 
 #### No terminar, rode o comando cat /etc/*-release, e encerre o terminal.
