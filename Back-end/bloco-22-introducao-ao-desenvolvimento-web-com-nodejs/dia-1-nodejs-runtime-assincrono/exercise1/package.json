@@ -1,0 +1,16 @@
+{
+  "name": "my-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my-scripts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node my-scripts",
+    "bmi": "node bmi"
+  },
+  "author": "Guilherme Kvet",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

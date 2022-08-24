@@ -29,6 +29,12 @@ const getChocolatesByBrand = async (brandId) => {
     return data.chocolates.filter((chocolate) => chocolate.brandId === brandId);
 }
 
+const findChocolateByName = async (query) => {
+    const cacaoTrybe = await readCacauTrybeFile();
+    return cacaoTrybe.chocolates
+      .filter((chocolate) => chocolate.name.toLowerCase().includes(query.toLowerCase()));
+};
+
 const writeCacauTrybe = async (content) => {
     try {
         const completePath = join(__dirname, path);
@@ -38,6 +44,18 @@ const writeCacauTrybe = async (content) => {
         return;
     }
 }
+
+const updateChocolate = async (id, update) => {
+  const cacaoTrybe = await readCacauTrybeFile();
+  const chocolateToUpdate = await cacaoTrybe.chocolates.find((chocolate) => chocolate.id === id);
+  
+    if (chocolateToUpdate) {
+      cacaoTrybe.chocolates[chocolateToUpdate.id - 1] = {...chocolateToUpdate, ...update};
+      await writeCacauTrybe(cacaoTrybe);
+      return { ...chocolateToUpdate, ...update };
+    }
+  return false;
+};
 
 const createChocolate = async ({name, brandId}) => {
     const data = await readCacauTrybeFile();
@@ -57,4 +75,6 @@ module.exports = {
     createChocolate,
     getChocolateById,
     getChocolatesByBrand,
+    updateChocolate,
+    findChocolateByName,
 }
