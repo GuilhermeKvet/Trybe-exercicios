@@ -12,7 +12,7 @@ const insert = async (travel) => {
     .join(', ');
 
   const [{ insertId }] = await connection.execute(
-    `INSERT INTO travels ${columns} VALUE ${placeholders}`,
+    `INSERT INTO travels (${columns}) VALUE (${placeholders})`,
     [...Object.values(travel)],
   );
 
