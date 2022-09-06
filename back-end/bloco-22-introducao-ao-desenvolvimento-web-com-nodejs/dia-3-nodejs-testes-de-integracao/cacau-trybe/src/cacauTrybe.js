@@ -47,8 +47,7 @@ const writeCacauTrybe = async (content) => {
 
 const updateChocolate = async (id, update) => {
   const cacaoTrybe = await readCacauTrybeFile();
-  const chocolateToUpdate = await cacaoTrybe.chocolates
-    .find((chocolate) => chocolate.id === id);
+  const chocolateToUpdate = await cacaoTrybe.chocolates.find((chocolate) => chocolate.id === id);
   
     if (chocolateToUpdate) {
       cacaoTrybe.chocolates[chocolateToUpdate.id - 1] = {...chocolateToUpdate, ...update};
