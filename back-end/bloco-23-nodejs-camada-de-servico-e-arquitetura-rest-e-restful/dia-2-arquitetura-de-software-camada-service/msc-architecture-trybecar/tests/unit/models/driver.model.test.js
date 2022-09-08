@@ -7,25 +7,25 @@ const driverModel = require('../../../src/models/driver.model');
 const { allDrivers, driver, registered } = require('./mocks/driver.model.mock');
 
 describe('Testes de unidade do model de motoristas', function () {
-  it('Lista todos os motoristas', async () => {
+  it('Lista todos os motoristas', async function () {
     sinon.stub(connection, 'execute').resolves(allDrivers);
 
     const result = await driverModel.findAll();
 
     expect(result).to.deep.equal(allDrivers);
   });
-  it('Procura pelo motorista com id 2', async () => {
+  it('Procura pelo motorista com id 2', async function () {
     sinon.stub(connection, 'execute').resolves(driver);
 
     const result = await driverModel.findById(2);
 
     expect(result).to.deep.equal(driver);
   });
-  it('Testa se consegue cadastrar um novo carro', async () => {
-    sinon.stub(connection, 'execute').resolves(registered);
+  it('Testa se consegue cadastrar um novo motorista', async function () {
+    sinon.stub(connection, 'execute').resolves([{ insertId: 1 }]);
 
     const result = await driverModel.registerNewDriver({
-      name: 'Guilherme'
+      name: 'Guilherme',
     });
 
     expect(result).to.equal(registered);
