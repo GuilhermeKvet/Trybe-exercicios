@@ -5,10 +5,6 @@ const app = express();
 
 app.use(express.json());
 
-const DRIVER_ON_THE_WAY = 2;
-const TRAVEL_IN_PROGRESS = 3;
-const TRAVEL_FINISHED = 4;
-
 app.post('/passengers/:passengerId/request/travel', async (req, res) => {
   const { passengerId } = req.params;
   const { startingAddress, endingAddress, waypoints } = req.body;
@@ -30,25 +26,26 @@ app.get('/drivers/open/travels', async (_req, res) => {
 
 app.put('/drivers/:driverId/travels/:travelId/assign', async (req, res) => {
   const { travelId, driverId } = req.params;
+  const { type, message } = await driverService.travelAssign({ travelId, driverId });
+  if (type) return res.status(type).json(message);
 
-  await travelModel.updateById(travelId, { driverId, travelStatusId: DRIVER_ON_THE_WAY });
-  const travel = await travelModel.findById(travelId);
-
-  res.status(200).json(travel);
+  res.status(200).json(message);
 });
 
 app.put('/drivers/:driverId/travels/:travelId/start', async (req, res) => {
   const { travelId, driverId } = req.params;
-  await travelModel.updateById(travelId, { driverId, travelStatusId: TRAVEL_IN_PROGRESS });
-  const result = await travelModel.findById(travelId);
-  res.status(200).json(result);
+  const { type, message } = await driverService.startTravel({ travelId, driverId });
+  if (type) return res.status(type).json(message);
+
+  res.status(200).json(message);
 });
 
 app.put('/drivers/:driverId/travels/:travelId/end', async (req, res) => {
   const { travelId, driverId } = req.params;
-  await travelModel.updateById(travelId, { driverId, travelStatusId: TRAVEL_FINISHED });
-  const result = await travelModel.findById(travelId);
-  res.status(200).json(result);
+  const { type, message } = await driverService.endTravel({ travelId, driverId });
+  if (type) return res.status(type).json(message);
+
+  res.status(200).json(message);
 });
 
 module.exports = app;

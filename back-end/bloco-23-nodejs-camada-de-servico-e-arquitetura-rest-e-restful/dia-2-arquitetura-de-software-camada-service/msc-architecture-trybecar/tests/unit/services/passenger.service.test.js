@@ -71,7 +71,6 @@ describe('Verificando service pessoa passageira', function () {
             });
         });
         it('com mesmo local de origem e destino é rejeitada', async function () {
-
             // arrange
             const passenger = {
                 id: 1,

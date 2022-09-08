@@ -21,16 +21,16 @@ const registerNewCar = async (car) => {
       .map((_key) => '?')
       .join(', ');
   
-    await connection.execute(
-      `INSERT INTO cars ${columns} VALUE ${placeholders}`,
+    const [{ insertId }] = await connection.execute(
+      `INSERT INTO cars (${columns}) VALUE (${placeholders})`,
       [...Object.values(car)],
     );
-    return 1;
+    return insertId;
   }
   return 0;
 };
 
-const findCarById = async (id) => {
+const findById = async (id) => {
   const result = await connection.execute(
     'SELECT * FROM cars WHERE id = ?',
     [id],
@@ -40,5 +40,5 @@ const findCarById = async (id) => {
 
 module.exports = {
   registerNewCar,
-  findCarById
+  findById,
 };
