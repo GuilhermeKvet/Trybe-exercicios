@@ -30,6 +30,13 @@ app.get('/myActivities/:id', (req, res) => {
 
 app.get('/myActivities', (req, res) => res.status(200).json({ activities }));
 
-app.get('/filter/myActivities', (req, res) => {});
+app.get('/filter/myActivities', (req, res) => {
+  const { status } = req.query;
+  if (status) {
+    const filteredActivities = activities.filter((activitie) => activitie.status === status);
+    return res.status(200).json(filteredActivities);
+  }
+  return res.status(404).json({ message: `Nenhuma atividade com status de ${status}` });
+});
 
 module.exports = app;
