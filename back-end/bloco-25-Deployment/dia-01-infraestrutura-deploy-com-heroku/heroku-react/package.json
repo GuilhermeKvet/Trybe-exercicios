@@ -1,5 +1,5 @@
 {
-  "name": "meu-primeiro-deploy-heroku",
+  "name": "heroku-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
