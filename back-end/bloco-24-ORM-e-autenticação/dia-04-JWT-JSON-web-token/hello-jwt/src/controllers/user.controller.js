@@ -38,7 +38,20 @@ const login = async (req, res) => {
   return res.status(200).json({ token });
 };
 
+const me = (req, res) => {
+  const { username, admin } = req.user;
+  res.status(200).json({ username, admin });
+};
+
+const topSecret = (req, res) => {
+  const { user } = req;
+  if (!user.admin) res.status(403).json({ message: 'Restricted access' });
+  return res.status(200).json({ secretInfo: 'Peter Parker é o Homem-Arannha' });
+};
+
 module.exports = {
   createUser,
   login,
+  me,
+  topSecret,
 };

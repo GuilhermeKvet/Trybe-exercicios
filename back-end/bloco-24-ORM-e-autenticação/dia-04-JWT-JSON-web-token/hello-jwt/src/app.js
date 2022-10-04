@@ -7,6 +7,8 @@ const app = express();
 
 app.use(express.json());
 
-app.post('/login', validateJWT, User.login);
+app.post('/login', User.login);
+app.get('/users/me', validateJWT, User.me);
+app.get('/top-secret', validateJWT, User.topSecret);
 
 module.exports = app;
