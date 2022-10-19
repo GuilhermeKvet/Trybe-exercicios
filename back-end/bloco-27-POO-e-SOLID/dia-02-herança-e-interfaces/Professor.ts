@@ -1,5 +1,6 @@
 import Person from "./Person";
 import Subject from "./Subject";
+import Employee from "./Employee";
 
 export default class Professor extends Person implements Employee {
   subject: Subject;
