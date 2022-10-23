@@ -3,33 +3,52 @@ import express, { Request, Response } from 'express';
 import Plants from './Plants';
 
 const app = express();
+const plants = new Plants();
 
 app.use(express.json());
 
-const PORT = 3000;
-app.listen(PORT, () => console.log(`Ouvindo na porta ${PORT}!`));
+const idRoute = '/plant/:id';
 
-app.get('/', (req: Request, res: Response) => {
-  res.status(200).send('Express + TypeScript');
-});
-
-const plants = new Plants();
+const PORT = process.env.PORT || 3000;
 
 app.get('/plants', async (req: Request, res: Response) => {
   const result = await plants.getPlants();
   res.status(200).json(result);
 });
 
-app.get('/plants/:id', async (req: Request, res: Response) => {
+app.get(idRoute, async (req: Request, res: Response) => {
   const { id } = req.params;
   const result = await plants.getPlantById(id);
+  if (!result) return res.status(404).json({ message: 'Plant not Found!' });
   res.status(200).json(result);
 });
 
-app.delete('/plants/:id', async (req: Request, res: Response) => {
+app.delete(idRoute, async (req: Request, res: Response) => {
   const { id } = req.params;
   const result = await plants.removePlantById(id);
+  if (!result) return res.status(404).json({ message: 'Plant not Found!' });
   res.status(204).json(result);
 });
+
+app.put(idRoute, async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const { plant } = req.body;
+  const result = await plants.editPlant(id, plant);
+  res.status(200).json(result);
+});
+
+app.post('/plant', async (req: Request, res: Response) => {
+  const { plant } = req.body;
+  const result = await plants.initPlant(plant);
+  res.status(201).json(result);
+});
+
+app.get('/sunny/:id', async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await plants.getPlantsThatNeedsSunWithId(id);
+  res.status(204).json(result);
+});
+
+app.listen(PORT, () => console.log(`Ouvindo na porta ${PORT}!`));
 
 module.exports = app;
