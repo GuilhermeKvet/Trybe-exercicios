@@ -1,4 +1,4 @@
-use 'biosDB';
+use('biosDB');
 
 db.bios.find({ _id: 8 });
 
@@ -12,7 +12,7 @@ db.bios.find({}).limit(3).pretty();
 
 db.bios.find().skip(5).limit(2).pretty();
 
-use 'bookDB';
+use('bookDB');
 
 db.book.find().count();
 
