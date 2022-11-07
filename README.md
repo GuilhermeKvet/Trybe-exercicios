@@ -172,7 +172,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 23-1: _Arquitetura de Software - Camada de Model_
 - [x] 23-2: _Arquitetura de Software - Camada Service_
 - [x] 23-3: _Arquitetura de Software - Camada Controller_
-- [x] 23-4: _[Projeto - Store Manager]()_
+- [x] 23-4: _[Projeto - Store Manager](https://github.com/GuilhermeKvet/Project-Store-Manager)_
 
 #### Bloco 24: Node.js: ORM e Autenticação
 
@@ -180,41 +180,41 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 24-2: _ORM Associations 1:1 e 1:N_
 - [x] 24-3: _ORM Associations N:N e Transactions_
 - [x] 24-4: _JWT - (JSON Web Token)_
-- [x] 24-5: _[Projeto - API de Blogs]()_
+- [x] 24-5: _[Projeto - API de Blogs](https://github.com/GuilhermeKvet/Project-Blogs-API)_
 
 ##### Bloco 25: Deployment
 
 - [x] 25-1: _Infraestrutura - Deploy com Heroku_
 - [x] 25-2: _Deploy Docker & Heroku_
-- [x] 25-3: _[Projeto - Stranger Things Backend]()_
-- [x] 25-3: _[Projeto - Stranger Things Frontend]()_
+- [x] 25-3: _[Projeto - Stranger Things Backend](https://github.com/GuilhermeKvet/Project-Stranger-Things-Backend)_
+- [x] 25-3: _[Projeto - Stranger Things Frontend](https://github.com/GuilhermeKvet/Project-Stranger-Things-Frontend)_
 
 ##### Bloco 26: Introdução ao TypeScript
 
 - [x] 26-1: _Introdução ao TypeScript_
 - [x] 26-2: _Tipagem Estática e Generics_
-- [ ] 26-3: _Express com TypeScript_
-- [ ] 26-4: _[Projeto - Trybesmith]()_
+- [x] 26-3: _Express com TypeScript_
+- [x] 26-4: _[Projeto - Trybesmith](https://github.com/GuilhermeKvet/Project-Trybesmith)_
 
 ##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 27-1: _Introdução a Orientação a Objetos_
-- [ ] 27-2: _Herança e Interfaces_
-- [ ] 27-3: _Polimorfismo_
-- [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 27-5: _SOLID - Princípios L e I_
-- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
+- [x] 27-1: _Introdução a Orientação a Objetos_
+- [x] 27-2: _Herança e Interfaces_
+- [x] 27-3: _Polimorfismo_
+- [x] 27-4: _SOLID - Introdução e Princípios S, O e D_
+- [x] 27-5: _SOLID - Princípios L e I_
+- [x] 27-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 28-1: _[Projeto - TFC-Trybe Futebol Clube]()_
+- [x] 28-1: _[Projeto - TFC-Trybe Futebol Clube](https://github.com/GuilhermeKvet/Project-Trybe-Futebol-Clube)_
 
 ##### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: _MongoDB - Introdução_
-- [ ] 29-2: _Filter Operators_
-- [ ] 29-3: _Operadores de consulta_
-- [ ] 29-4: _Updates Simples_
+- [x] 29-1: _MongoDB - Introdução_
+- [x] 29-2: _Filter Operators_
+- [x] 29-3: _Operadores de consulta_
+- [x] 29-4: _Updates Simples_
 - [ ] 29-5: _Updates Complexos - Arrays_
 - [ ] 29-6: _[Projeto - Commerce]()_
 
