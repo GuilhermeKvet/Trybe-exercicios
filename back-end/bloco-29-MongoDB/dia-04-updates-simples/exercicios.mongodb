@@ -1,0 +1,37 @@
+use('class2')
+
+// //Altere o imdbRating para 7.7 no filme Batman.
+db.movies.updateOne(
+  { title: "Batman" },
+  { $set: { imdbRating: 7.7 } }
+);
+
+// Altere budget para 15 e imdbRating para 5.5 no filme Home Alone.
+db.movies.updateOne(
+  { title: "Home Alone" },
+  { $set: { budget: 15, imdbRating: 5.5 } }
+);
+
+// Aumente em 2 o imdbRating do filme Batman.
+db.movies.updateOne(
+  { title: "Batman" },
+  { $inc: { imdbRating: 2 } }
+);
+
+// Multiplique por 4 o imdbRating do filme Batman.
+db.movies.updateOne(
+  { title: "Batman" },
+  { $mul: { imdbRating: 4 } }
+);
+
+// Utilizando uma única operação, crie um campo chamado sequels e atribua a ele o valor 0 em todos os documentos.
+db.movies.updateMany(
+  {},
+  { $set: { sequels: 0 } },
+);
+
+// Para os filmes Batman ou Home Alone, atribua a imdbRating o valor 17 caso o valor de imdbRating seja menor que 17.
+db.movies.updateMany(
+  { $or: [ { title: "Batman" }, { title: "Home Alone" } ]},
+  { $max: { imdbRating: 17 } },
+);
