@@ -1,4 +1,4 @@
-import PaymentStatus from "../utils/PaymentStatus";
+import PaymentStatus from '../utils/PaymentStatus';
 
 interface IPayment {
   id?: string;

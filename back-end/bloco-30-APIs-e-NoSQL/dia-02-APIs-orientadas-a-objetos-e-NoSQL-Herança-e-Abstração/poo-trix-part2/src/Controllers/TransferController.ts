@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 import IPayment from '../Interfaces/IPayment';
 import TransferService from '../Services/TransferService';
+import PaymentStatus from '../utils/PaymentStatus';
 
 class TransferController {
   private req: Request;
@@ -30,6 +31,20 @@ class TransferController {
       this.next(error);
     }
   }
- }
+
+  public async reversalRequest() {
+    const payment: IPayment = {
+      ...this.req.body,
+      status: PaymentStatus.reversed,
+    };
+    const { id } = this.req.params;
+    try {
+      await this.service.undoTransfer(id, payment);
+      return this.res.status(204).json({});
+    } catch (error) {
+      this.next(error);
+    }
+  }
+}
   
 export default TransferController;

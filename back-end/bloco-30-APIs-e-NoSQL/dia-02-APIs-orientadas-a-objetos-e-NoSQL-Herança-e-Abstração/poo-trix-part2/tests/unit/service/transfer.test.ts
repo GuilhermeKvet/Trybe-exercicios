@@ -3,7 +3,7 @@ import sinon from 'sinon';
 import { Model } from 'mongoose';
 import IPayment from '../../../src/Interfaces/IPayment';
 import TransferService from '../../../src/Services/TransferService';
-import Payment from '../../../src/Domain/Payment';
+import Payment from '../../../src/Domain/Payment/Payment';
 import { setEnvironmentData } from 'worker_threads';
 
 describe('Deveria criar uma transferência TRIX', function () {
