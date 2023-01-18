@@ -216,28 +216,23 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 29-3: _Operadores de consulta_
 - [x] 29-4: _Updates Simples_
 - [x] 29-5: _Updates Complexos - Arrays_
-- [ ] 29-6: _[Projeto - Commerce]()_
+- [x] 29-6: _[Projeto - Commerce](https://github.com/GuilhermeKvet/Project-Commerce)_
 
 ##### Bloco 30: APIs OO e NoSQL
 
-- [ ] 30-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
-- [ ] 30-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
-- [ ] 30-3: _[Projeto - Car Shop]()_
+- [x] 30-1: _APIs orientadas a objetos e NoSQL: POO e ODMs_
+- [x] 30-2: _APIs orientadas a objetos e NoSQL: Herança e Abstração_
+- [x] 30-3: _[Projeto - Car Shop](https://github.com/GuilhermeKvet/Project-Car-Shop)_
 
 ##### Bloco 31: Projeto App de Delivery
 
 - [ ] 31-1: _[Projeto - App de Delivery]()_
 
-##### Bloco 32: MasterClass - VPS, CI/CD
-
-- [ ] 32-1: _VPS_
-- [ ] 32-2: _Dia 2_
-
 ## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Bloco 33: Introdução a Python
 
-- [ ] 33-1: _Aprendendo Python_
+- [x] 33-1: _Aprendendo Python_
 - [ ] 33-2: _Entrada e Saída de dados_
 - [ ] 33-3: _Testes_
 - [ ] 33-4: _[Projeto - Job Insights]()_
