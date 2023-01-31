@@ -233,15 +233,15 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 ##### Bloco 33: Introdução a Python
 
 - [x] 33-1: _Aprendendo Python_
-- [ ] 33-2: _Entrada e Saída de dados_
-- [ ] 33-3: _Testes_
+- [x] 33-2: _Entrada e Saída de dados_
+- [x] 33-3: _Testes_
 - [ ] 33-4: _[Projeto - Job Insights]()_
 
 ##### Bloco 34: Padrões de Projeto
 
-- [ ] 34-1: _P.O.O em Python_
-- [ ] 34-2: _Padrões - Iterator, Adapter, Strategy_
-- [ ] 34-3: _Padrões - Decorator, Observer, Factory_
+- [x] 34-1: _P.O.O em Python_
+- [x] 34-2: _Padrões - Iterator, Adapter, Strategy_
+- [x] 34-3: _Padrões - Decorator, Observer, Factory_
 - [ ] 34-4: _[Projeto - Relátorios de Estoque]()_
 
 ##### Bloco 35: Redes e Raspagem de Dados
