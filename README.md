@@ -77,7 +77,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 9-2: _Promessas JavaScript_
 - [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/GuilhermeKvet/Project-Shopping-Cart)_
 
-## Desenvolvimento front-end :hourglass_flowing_sand:
+## Desenvolvimento front-end :white_check_mark:
 
 ##### Bloco 10: Introdução à React
 
@@ -133,7 +133,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [x] 18-1: _[Projeto - Aplicativo de Receita](https://github.com/GuilhermeKvet/Project-My-Foods)_
 
-## Desenvolvimento de back-end :hourglass_flowing_sand:
+## Desenvolvimento de back-end :white_check_mark:
 
 ##### Bloco 19: Docker: Utilizando Containers
 
@@ -147,7 +147,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [x] 20-1: _Banco de Dados SQL_
 - [x] 20-2: _Encontrando dados em um banco de dados_
-- [x] 20-3: __Filtrando dados de forma específica_
+- [x] 20-3: \__Filtrando dados de forma específica_
 - [x] 20-4: _Manipulação de tabelas_
 - [x] 20-5: _[Projeto - Todos Por Um](https://github.com/GuilhermeKvet/Project-All-for-one)_
 
@@ -226,7 +226,7 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 ##### Bloco 31: Projeto App de Delivery
 
-- [ ] 31-1: _[Projeto - App de Delivery]()_
+- [x] 31-1: _[Projeto - App de Delivery](https://github.com/GuilhermeKvet/Project-Delivery-app)_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
@@ -235,26 +235,26 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [x] 33-1: _Aprendendo Python_
 - [x] 33-2: _Entrada e Saída de dados_
 - [x] 33-3: _Testes_
-- [ ] 33-4: _[Projeto - Job Insights]()_
+- [x] 33-4: _[Projeto - Job Insights]()_
 
 ##### Bloco 34: Padrões de Projeto
 
 - [x] 34-1: _P.O.O em Python_
 - [x] 34-2: _Padrões - Iterator, Adapter, Strategy_
 - [x] 34-3: _Padrões - Decorator, Observer, Factory_
-- [ ] 34-4: _[Projeto - Relátorios de Estoque]()_
+- [x] 34-4: _[Projeto - Relátorios de Estoque]()_
 
 ##### Bloco 35: Redes e Raspagem de Dados
 
-- [ ] 35-1: _Arquitetura de Redes_
-- [ ] 35-2: _Raspagem de Dados_
-- [ ] 35-3: _Outras Ferramentas de Raspagem de Dados_
-- [ ] 35-4: _[Projeto - Tech news]()_
+- [x] 35-1: _Arquitetura de Redes_
+- [x] 35-2: _Raspagem de Dados_
+- [x] 35-3: _Outras Ferramentas de Raspagem de Dados_
+- [x] 35-4: _[Projeto - Tech news]()_
 
 ##### Bloco 36: Algoritmos
 
-- [ ] 36-1: _Complexidade de Algoritmos_
-- [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
+- [x] 36-1: _Complexidade de Algoritmos_
+- [x] 36-2: _Recursividade e Estratégias para solução de problemas_
 - [ ] 36-3: _Algoritmo de ordenação de busca_
 - [ ] 36-4: _[Projeto - Algoritmos]()_
 
@@ -273,6 +273,3 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 - [ ] 38-3: _[Projeto - Restaurant Orders]()_
 
 # [...]
-
-
-
