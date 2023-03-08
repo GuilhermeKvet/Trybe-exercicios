@@ -255,16 +255,16 @@ O programa tem mais de 1.500 horas de aulas presenciais e online, e apresenta a 
 
 - [x] 36-1: _Complexidade de Algoritmos_
 - [x] 36-2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 36-3: _Algoritmo de ordenação de busca_
-- [ ] 36-4: _[Projeto - Algoritmos]()_
+- [x] 36-3: _Algoritmo de ordenação de busca_
+- [x] 36-4: _[Projeto - Algoritmos]()_
 
 ##### Bloco 37: Estrutura de Dados 1: Arrays, Listas, Filas e Pilhas
 
-- [ ] 37-1: _Arquitetura de Computadores_
-- [ ] 37-2: _Arrays_
-- [ ] 37-3: _Nó e Listas Encadeadas_
-- [ ] 37-4: _Pilhas e Filas_
-- [ ] 37-5: _[Projeto - TING-Trybe Is Not Google]()_
+- [x] 37-1: _Arquitetura de Computadores_
+- [x] 37-2: _Arrays_
+- [x] 37-3: _Nó e Listas Encadeadas_
+- [x] 37-4: _Pilhas e Filas_
+- [x] 37-5: _[Projeto - TING-Trybe Is Not Google]()_
 
 ##### Bloco 38: Estrutura de Dados 2: Hashmaps e Sets
 
